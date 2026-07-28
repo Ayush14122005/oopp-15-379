@@ -6,24 +6,24 @@ void show(int x, int y)
 }
 void swapByValue(int x, int y)
 {
-    int z= x;
+    int temp= x;
     x = y;
-    y =z;
+    y =temp;
 
     cout << "After swapping Value ";
     show(x, y);
 }
 void swapByReference(int &x, int &y)
 {
-    int z = x;
+    int temp = x;
     x = y;
-    y =z;
+    y =temp;
 }
 void swapByAddress(int *x, int *y)
 {
-    int z = *x;
+    int temp = *x;
     *x = *y;
-    *y =z;
+    *y =temp;
 }
 int main()
 {
