@@ -8,11 +8,11 @@ using namespace std;
 // Call by Value
 void value(int x)
 {
-    x = x + 10;
+    x = x + 20;
     cout << "Inside Call by Value: " << x << endl;
 }
 
-// Call by Reference
+// Call by ReferenceG
 void reference(int &x)
 {
     x = x + 10;
